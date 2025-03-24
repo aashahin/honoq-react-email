@@ -1,0 +1,23 @@
+{
+  "name": "mail-api",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.0",
+    "@react-email/components": "^0.0.34",
+    "@types/nodemailer": "^6.4.17",
+    "dotenv": "^16.4.7",
+    "hono": "^4.7.5",
+    "nodemailer": "^6.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "tsx": "^4.7.1"
+  }
+}
